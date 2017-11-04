@@ -1,0 +1,16 @@
+VIA University College - Group 3, Hand-in assignment - 28/09/2017
+
+Assignment member list:
+
+1 - Angel Petrov - 266489@via.dk
+2 - Rodrigo Pereira - 269084@via.dk
+3 - Diyar Hussein - 266352@via.dk
+4 - Rytis Kunigiskis - 266109@via.dk
+
+
+CREDITS:
+
+1 - W3SCHOOLS.COM - HTML and CSS tips and tricks
+2 - GOOGLE.COM - Images and general information
+3 - BUDDHANET.NET - Buddhism events
+4 - Other sources reffered to with the resources used to make this site

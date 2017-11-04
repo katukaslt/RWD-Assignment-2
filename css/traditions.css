@@ -1,0 +1,132 @@
+/*------------------------------------------------MAIN CSS------------------------------------------------*/
+body{
+    position: relative;
+    width: 100%; 
+    margin:0;
+    height: 840px;
+    min-height: 100%;
+}
+
+.main{
+    width: 100%;
+}
+
+/*------------------------------------------------TITLE------------------------------------------------*/
+.main h5{
+    margin-top: 100px;
+    color: black;
+    font-size: 35px;
+    padding: 15px;
+    text-align: center;
+    font-family: Agency FB;
+}
+
+/*------------------------------------------------LEFT------------------------------------------------*/
+.left{
+    float: left;
+    width: 47%;
+    padding: 15px;
+    color: black;
+    clear: both;
+    font-family: Book Antiqua;
+    margin-top: -90px;
+}
+
+/*----------------MAHAYANA-----------------*/
+.mahaText{
+    position:relative;
+    font-size: 16px;
+}
+
+.mahaText h3{
+    font-size: 30px;
+}
+
+.mahaText ul{
+    float: left;
+    margin: 0 320px 0 0;
+}
+
+.mahaText img{
+    float: right;
+    margin: -180px 30px 0 0;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*----------------PURE LAND-----------------*/
+.pureText{
+    margin-top: 250px; 
+    font-size: 16px;
+}
+
+.pureText p{
+    float: left; 
+    margin: 0 340px 0 0;
+}
+
+.pureText h3{
+    font-size: 30px;
+}
+
+.pureText img{
+    float: right;
+    margin: -150px 30px 0 0;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*------------------------------------------------RIGHT------------------------------------------------*/
+.right{
+    float: right;
+    width: 47%;
+    color: black;
+    font-family: Book Antiqua;
+    margin-top: -90px;
+    padding: 15px;
+}
+
+/*----------------ZEN-----------------*/
+.zenText{
+   position:relative;
+    margin-top: 360px;
+    font-size: 16px;
+}
+
+.zenText h3{
+    font-size: 30px;
+}
+
+.zenText ul{
+    float: left;
+    margin: 0 320px 0 0;
+}
+
+.zenText img{
+    float: right;
+    margin: -180px 30px 0 0;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/*--------------VARJAYANA---------------*/
+.varjaText{
+    position: relative;
+    font-size: 16px;
+}
+
+.varjaText h3{
+   font-size: 30px; 
+}
+
+.varjaText ul{
+    float: left;
+    margin: 0 270px 0 0;
+}
+
+.varjaText img{
+    float: right;
+    margin: -260px 30px 0 0;
+    width: 210px;
+    border-radius: 10px;
+}

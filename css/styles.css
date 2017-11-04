@@ -1,0 +1,174 @@
+/*--------------------------------MAIN CSS---------------------------------------*/
+html, body{
+    position: relative;
+    width: 100%; 
+    margin:0;
+    padding:0;
+    height:100%;
+    min-width: 1100px;
+}
+
+.main{
+    min-height:100%;
+    position:relative;
+    height: 100%;
+    margin-top: 100px;
+    background-image: url("../images/2272923.jpg");
+    background-size: cover;
+}
+
+/*--------------------------------NAVEGATION BAR--------------------------------------*/
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    max-height: 98px;
+    min-height: 98px;
+    border-bottom: 1px solid #e3e3e8;
+    background-image: url("../images/sky_gradient.jpg");
+    background-size: cover;
+    z-index: 2;
+    -webkit-box-shadow: 0px -15px 42px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -15px 42px 17px rgba(0,0,0,0.75);
+    box-shadow: 0px -15px 42px 17px rgba(0,0,0,0.75);
+    min-width: 100%
+}
+
+#logo img{
+    height: 70px;
+    margin-left: 20px;
+    margin-bottom: -10px;
+    max-height: 70px;
+    min-height: 70px;
+    
+}
+
+#logo {
+    float: left;
+    font-size: 45px;
+    margin: 0;
+    padding: .2em;
+    text-decoration: none;
+    color: white;
+    transition: .5s all;
+    font-family: castellar; 
+    text-shadow: 1px 1px black;
+    height: 80px;
+
+}
+#logo:hover {
+    color: #99ccff;
+    background-color: white;
+    
+}
+
+nav {
+    float: right;
+    
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1.6em 2em;
+}
+nav ul li {
+  display:inline-block;
+  padding: 0 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  padding-bottom: 1.58em;
+  transition: .5s color;
+    font-family: Agency FB;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    
+}
+nav ul li a:hover {
+  border-bottom: 3px solid #333;
+}
+
+#current {
+  color: black;
+  border-bottom: 3px solid #333;
+}
+
+/*--------------------------------------------FOOTER----------------------------------------*/
+#footer{
+    position:absolute;
+    bottom:0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #e3e3e8;
+    -webkit-box-shadow: -3px 18px 42px 17px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 18px 42px 17px rgba(0,0,0,0.75);
+    box-shadow: -3px 18px 42px 17px rgba(0,0,0,0.75);
+    font-family: Agency FB;
+    background-image: url("../images/sky_gradient.jpg");
+    background-size: cover;  
+}
+
+.footerContent{ 
+    padding-left: 30px;
+    height: 45px;
+}
+
+.footerContentLeft{
+    color: black;
+    float:left;
+    margin-top: 4px;
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle; 
+    padding-left: 15px;
+}
+
+.footerContentLeft a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.maps{
+    margin-left: 25px;
+    color: black;
+}
+
+.maps:hover{
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.footerContentRight{
+    color: black;
+    float: right;
+    margin-top: 8px;
+}
+
+.copyright{
+    text-align: right;
+    font-size: 20px;
+    padding-right: 30px; 
+    
+}
+
+.email{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+.email:hover{
+     color: white;
+    text-shadow: 1px 1px black;
+}
