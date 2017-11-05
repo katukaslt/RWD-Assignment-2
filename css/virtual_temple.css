@@ -8,50 +8,23 @@
 }
 
 .main{
-    position: relative;
+    position:relative;
     width: 100%; 
     margin:0;
-    height: 1450px;
-    margin-top: 50px;
+    height: 100%;
     background-image: url("../images/temple_inside.jpg");
     background-size: cover;
 }
 
+
+
 /*----------------------------------------------VIDEOS--------------------------------------------*/
-.vids{
-    width: 100%;
-    height: 50%;
+video {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1%;
+    margin-top: 7%;
 }
-
-.vid1 {
-    float: left;
-    width: 48%;;
-    margin-left: 42px;
-    margin-top: 83px;
-    position: relative;
-    margin-bottom: 2px;
-    }
-
-.vid1 video{
-   height: 515px; 
-    width: 720px;
-    margin-top: -40px;
-}
-
-.vid2 {
-    float: left;
-    width: 48%;
-    margin-top: 83px;
-    position: relative;
-    margin-bottom: 1px;
-}
-
-.vid2 video{
-   height: 515px; 
-    width: 720px;
-    margin-top: -40px;
-}
-
 /*----------------------------------------------GALLERY--------------------------------------------*/
 .galery h1{
     text-align: center; 
@@ -86,4 +59,10 @@
     margin-left: 26px;
     margin-top: 30px;
     position: fixed;
+}
+/*--------------------------------------------tubnail----------------------------------------*/
+
+.tubmargin {
+    margin-top: 15%;
+    margin-left: 3%;
 }
